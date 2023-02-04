@@ -1,0 +1,667 @@
+@font-face {
+	font-family: "OpenSans";
+	src: url("../vendor/fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+	font-family: "OpenSans_Bold";
+	src: url("../vendor/fonts/Open_Sans/OpenSans-Bold.ttf");
+}
+
+@font-face {
+	font-family: "OpenSans_SemiBold";
+	src: url("../vendor/fonts/Open_Sans/OpenSans-SemiBold.ttf");
+}
+
+@font-face {
+	font-family: "OpenSans_SemiBoldItalic";
+	src: url("../vendor/fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf");
+}
+
+@font-face {
+	font-family: "NunitoSans";
+	src: url("../vendor/fonts/Nunito_Sans/NunitoSans-Regular.ttf");
+}
+
+@font-face {
+	font-family: "NunitoSans_Italic";
+	src: url("../vendor/fonts/Nunito_Sans/NunitoSans-Italic.ttf");
+}
+
+@font-face {
+	font-family: "NunitoSans_Bold";
+	src: url("../vendor/fonts/Nunito_Sans/NunitoSans-Bold.ttf");
+}
+
+@font-face {
+	font-family: "NunitoSans_ExtraBold";
+	src: url("../vendor/fonts/Nunito_Sans/NunitoSans-ExtraBold.ttf");
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+/*BOOTSTRAP 4'S CLASS*/
+.d-inline-block {
+	display: inline-block;
+}
+
+.d-inline-flex {
+	display: inline-flex;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+.justify-content-between {
+	justify-content: space-between;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.pb-0 {
+	margin-bottom: 0;
+}
+
+/*TOP HEADER*/
+header #top-header {
+	padding: 7px 25px;
+}
+
+header #top-header .container-fluid>.header1 {
+	width: 20%;
+}
+
+header #top-header img {
+	margin-left: 24px;
+	margin-right: 15px;
+}
+
+header #top-header p, header #top-header a {
+	font-family: OpenSans_Bold;
+	font-size: 18px;
+	line-height: 20px;
+	color: #0776ad;
+}
+
+/*MENU*/
+header nav.navbar {
+	background: #0776ad;
+	margin: 0;
+	border: none;
+	border-radius: unset;
+	min-height: 48px;
+}
+
+header .navbar .navbar-collapse {
+    padding: 0;
+}
+
+header .navbar-default .navbar-brand {
+	color: #fff;
+	font-family: OpenSans_SemiBold;
+	font-size: 15px;
+}
+
+header .navbar-default button {
+	color: #fff;
+	font-size: 15px;
+	line-height: 15px;
+	border: unset;
+	background: transparent !important;
+}
+
+header ul.nav {
+	padding: 0;
+	width: 100%;
+	margin: 0;
+}
+
+header ul.nav>li {
+	padding: 6px 0;
+}
+
+header .navbar-default .navbar-nav>li>a {
+	color: #fff;
+	font-family: OpenSans_SemiBold;
+	font-size: 15px;
+	background-color: #0776ad;
+	line-height: 15px;
+	padding: 10px;
+}
+
+header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, header .navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	background-color: #0776ad;
+	color: #fff;
+	transition: 0.2s;
+}
+
+header .navbar-default .navbar-nav>li>a:hover, header .navbar-default .navbar-nav>li.active>a:hover {
+	background: #32a852;
+}
+
+/*BOOK*/
+main #book {
+	padding: 8px 25px 8px 25px;
+}
+
+main #book img{
+	width: 100%;
+}
+
+/*main #book .col-md-6 {
+	padding-bottom: 10px;
+}
+
+main #book .book_form ul {
+	border: unset;
+	width: 100%;
+	height: 100%;
+}
+
+main #book .book_form .pane_tab {
+	width: 25%;
+	margin-bottom: 0;
+	height: 100%;
+}
+
+main #book .book_form .pane_tab a {
+	border: unset;
+	border-radius: unset;
+	margin: 0;
+	background: #f17419;
+	font-family: OpenSans_Bold;
+	font-size: 14px;
+	color: #fff;
+	height: 100%;
+	display: block;
+}
+
+main #book .book_form .active.pane_tab a {
+	background: #0776ad;
+}
+
+main #book .book_form .pane_tab p {
+	margin: 0;
+}
+
+main #book .book_form .tab-pane {
+	min-height: 430px;
+	padding: 10px 7px 20px 7px;
+	background: #0776ad;
+}
+
+main #book img {
+	width: 100%;
+}*/
+
+/*POLICY*/
+main #policy {
+	padding: 32px 25px;
+	background: #f0f0f0;
+	min-height: 180px;
+}
+
+main #policy img {
+	margin-bottom: 14px;
+}
+
+main #policy h5 {
+	font-family: OpenSans_Bold;
+	font-size: 20px;
+	color: #0776ad;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+
+/*TOURS*/
+main #tours {
+	padding: 46px 25px 49px 25px;
+	background: #fff;
+}
+
+main #tours h4 {
+	text-transform: uppercase;
+	font-family: OpenSans_Bold;
+	font-size: 30px;
+	color: #0776ad;
+	margin-bottom: 36px;
+}
+
+main #tours .col-md-6 {
+	margin-bottom: 26px;
+}
+
+main #tours a {
+	overflow: hidden;
+	width: 100%;
+}
+
+main #tours a img {
+	width: 100%;
+	height: auto;
+	transition: 0.4s;
+}
+
+main #tours a img:hover {
+	transform: scale(1.4);
+}
+
+main #tours .col-xs-6>a {
+	width: 100%;
+	position: relative;
+}
+
+main #tours a h5 {
+	background: #f17419;
+	width: 80%;
+	color: #fff;
+	font-family: OpenSans_Bold;
+	font-size: 18px;
+	padding: 11px 14px;
+	text-transform: capitalize;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin: 0;
+}
+
+main #tours>div>a {
+	text-transform: uppercase;
+	width: 160px;
+	height: 44px;
+	border: 3px solid #f17419;
+	border-radius: 22px;
+	font-size: 16px;
+	font-family: OpenSans;
+	color: #222;
+	line-height: 38px;
+}
+
+/*SERVICE*/
+main #service {
+	padding: 0px 25px 10px 25px;
+	background: #fff;
+}
+
+main #service .col-md-6 {
+	margin-bottom: 29px;
+}
+
+main #service .service1 .description {
+	padding: 21px 0 13px 0;
+	position: absolute;
+	top: 0;
+	right: 15px;
+}
+
+main #service .service1>img, main #service .service2>img {
+	width: 100%;
+	min-height: 330px;
+}
+
+main #service .service1 h3, main #service .service1 h5, main #service .service1 h6, main #service .service1 p {
+	padding-right: 11px;
+}
+
+main #service .service1 h3 {
+	padding: 9px 11px 3px 28px;
+	margin-bottom: 40px;
+	font-family: NunitoSans_ExtraBold;
+	font-size: 23px;
+	color: #fa0606;
+	line-height: 29px;
+	letter-spacing: 2px;
+	background-image: linear-gradient(90deg, transparent, #fdeeb0);
+	text-shadow: 0 -1px #fff, 0 1px #fff, 1px 0 #fff, -1px 0 #fff, 2px 2px gray;
+}
+
+main #service .service1 h5 {
+	margin-bottom: 12px;
+	font-family: OpenSans_SemiBoldItalic;
+	font-size: 16px;
+	color: #fff;
+	line-height: 18px;
+	letter-spacing: 1px;
+}
+
+main #service .service1 .description>div {
+	position: relative;
+}
+
+main #service .service1 h6 {
+	display: inline-block;
+	padding: 8px;
+	background: #f17419;
+	transform: skew(-20deg);
+	float: right;
+	margin: 15px 15px 10px 0;
+	font-family: NunitoSans_Bold;
+	font-size: 17px;
+	line-height: 20px;
+	color: #fff;
+}
+
+main #service .service1 h6>span {
+	color: #0726ad;
+}
+
+main #service .service1 p {
+	font-family: NunitoSans_Italic;
+	font-size: 17px;
+	line-height: 20px;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+main #service .service1 p svg {
+	margin-right: 13px;
+}
+
+main #service .service2 .description {
+	padding: 39px 0 0 23px;
+	position: absolute;
+	top: 0;
+	left: 15px;
+}
+
+main #service .service2 h3 {
+	margin-bottom: 35px;
+	font-family: NunitoSans_Bold;
+	font-size: 30px;
+	color: #f17419;
+	line-height: 35px;
+	letter-spacing: 2px;
+}
+
+main #service .service2 h5 {
+	padding-left: 13px;
+	font-family: NunitoSans_Bold;
+	font-size: 16px;
+	line-height: 18px;
+	color: #f9f8d1;
+	margin-bottom: 12px;
+}
+
+main #service .service2 h5>img {
+	margin-right: 8px;
+}
+
+main #service .service2 h6 {
+	font-family: NunitoSans_Bold;
+	font-size: 20px;
+	color: #fff;
+	line-height: 24px;
+	text-shadow: 0 -1px #f17419, 0 1px #f17419, 1px 0 #f17419, -1px 0 #f17419;
+	margin-top: 55px;
+}
+
+/*PARTNER*/
+main #partner {
+	padding: 42px 25px 18px 25px;
+	background: #f7f7f7;
+	min-height: 295px;
+}
+
+main #partner h4 {
+	text-transform: uppercase;
+	font-family: OpenSans_Bold;
+	font-size: 30px;
+	color: #0776ad;
+	margin-bottom: 32px;
+}
+
+main #partner .col-lg-2 {
+	margin-bottom: 15px;
+}
+
+
+/*PAYMENT METHOD*/
+main #payment_method {
+	padding: 65px 25px 40px 25px;
+	background: #fff;
+	min-height: 312px;
+}
+
+main #payment_method h4 {
+	text-transform: uppercase;
+	font-family: OpenSans_Bold;
+	font-size: 30px;
+	color: #0776ad;
+	margin-bottom: 45px;
+}
+
+main #payment_method .d-inline-flex {
+	border: 1px solid #ebebeb;
+	border-radius: 5px;
+	align-items: center; 
+	height: 125px;
+}
+
+main #payment_method img {
+	margin-left: 20px;
+	margin-right: 26px;
+}
+
+main #payment_method .payment_policy {
+	/*padding-top: 10px;*/
+	padding-right: 14px;
+}
+
+main #payment_method h5 {
+	font-family: OpenSans_SemiBold;
+	font-size: 16px;
+	color: #0776ad;
+}
+
+main #payment_method p {
+	font-family: OpenSans;
+	font-size: 14px;
+	color: #000;
+	line-height: 17px;
+}
+
+/*NEW INFO*/
+main #new_info {
+	padding: 48px 25px 33px 25px;
+	background: url('../img/new_background.png');
+	min-height: 500px;
+	background-size: cover;
+	background-position: 40% 50%;
+}
+
+main #new_info h4 {
+	text-transform: uppercase;
+	font-family: OpenSans_Bold;
+	font-size: 30px;
+	color: #0776ad;
+	margin-bottom: 32px;
+}
+
+main #new_info a {
+	background: #fff;
+	display: inline-block;
+}
+
+main #new_info a img {
+	width: 100%;
+	height: auto;
+}
+
+main #new_info a h5 {
+	font-family: OpenSans_SemiBold;
+	font-size: 14px;
+	line-height: 16px;
+	color: #000;
+	text-transform: uppercase;
+	margin: 23px 11px 20px 23px;
+}
+
+main #new_info a p {
+	font-family: OpenSans;
+	font-size: 13px;
+	line-height: 17px;
+	color: #000;
+	margin: 0 11px;
+	padding-bottom: 30px;
+	letter-spacing: 1px;
+}
+
+/*FOOTER*/
+footer #footer {
+	min-height: 287px;
+	padding: 25px;
+}
+
+footer #footer h5 {
+	margin-top: 38px;
+	font-family: OpenSans_Bold;
+	font-size: 16px;
+	color: #000;
+	line-height: 19px;
+	margin-bottom: 21px;
+	text-transform: uppercase;
+}
+
+footer #footer h6 {
+	margin-top: 38px;
+	font-family: OpenSans_SemiBold;
+	font-size: 14px;
+	color: #000;
+	line-height: 16px;
+	margin-bottom: 22px;
+	text-transform: uppercase;
+}
+
+footer #footer .font_nunito h6 {
+	font-family: NunitoSans_Bold;
+}
+
+footer #footer p, footer #footer p a {
+	font-family: OpenSans;
+	font-size: 14px;
+	color: #000;
+	line-height: 16px;
+	margin-bottom: 20px;
+}
+
+footer #footer .font_nunito p, footer #footer .font_nunito p a {
+	font-family: NunitoSans;
+}
+
+footer #footer div>a {
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background: #f17419;
+	color: #fff;
+	position: relative;
+	margin-right: 13px;
+}
+
+footer #footer div>a>svg {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+footer #footer p>a>svg {
+	margin-right: 14px;
+	font-size: 14px;
+	color: #000;
+	line-height: 16px;
+}
+
+footer #copyright {
+	border-top: 1px solid #fff799;
+	min-height: 53px;
+	background: #0776ad;
+}
+
+footer #copyright .copyright {
+	line-height: 53px;
+	font-family: OpenSans;
+	font-size: 14px;
+	color: #fff;
+}
+
+footer a.to-top {
+	display: block;
+	background-color: #28ad21;
+	width:44px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	position: fixed;
+	right:40px;
+	bottom:20px;
+	font-size:20px;
+	color:white;
+	border-radius: 5px;
+}
+
+@media (min-width: 767px) {
+	header ul.nav {
+		display: inline-flex;
+		height: 48px;
+	}
+}
+
+@media (max-width: 767px) {
+	header #top-header .container-fluid {
+		display: block;
+	}
+
+	header #top-header .container-fluid>.header1 {
+		width: 100%;
+		margin: auto;
+		display: flex;
+		justify-content: center;
+	}
+
+	#top-header, #policy, #book, #tours, #service, #partner, #payment_method, #new_info, #footer, #copyright {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
+
+
+@media (max-width: 632px) {
+	header #top-header p, header #top-header a {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 561px) {
+	main #book .book_form .pane_tab a {
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 550px) {
+	header #top-header p, header #top-header a {
+		font-size: 10px;
+	}
+}
